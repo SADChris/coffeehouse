@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" contetn="width=device-width, initial scale=1" />
+    <meta name="description" content="Homepage CoffeeHouse " />
+    <meta name="keywords" content="caffetteria, caffè, dolci, cappuccini, cannoli, babà" />
+    <meta name="author" content="Christian, Antonio, Benny, Emanuel" />
+    <title>Homepage CoffeHouse</title>
+    <style>
+        header {
+            text-align: center;
+            background: rgba(204,154,97,1);
+            padding: 2px;
+            
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+        }
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size:20px;
+            }
+            nav a:hover{
+                background-color: black;
+                border-radius: 5px;
+                padding:2px;
+
+            }
+
+        body {
+            margin: 0px;
+            background: url('img/immagine_caffè.jpg') fixed; /*Inserire una immagine di sfondo*/ /*Fixed serve per non far muovere la immagine*/
+            background-size: auto;
+            font-family: Arial, sans-serif;
+        }
+        div {
+            background: rgba(0,0,0,0.3);
+            text-align: center;
+            padding: 25px;
+            border-radius: 10px;
+            color: white; /*Cambiato colore delle scritte*/
+            
+        }
+            div a {                           /*Cambiato colore e stili dei bottoni*/
+                background: rgb(156, 87, 8);
+                color: #fff;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-decoration: none;
+                line-height: 5;
+            }
+                div a:hover {
+                    background-color: black;
+                }
+
+        .intro {                     /*QUi si modifica la intro: benvenuti nel nostro coffehouse*/
+            text-align: center;
+            font-size: 25px;
+            background: rgba(0,0,0,0.4);
+            padding: 10px;
+            color:white;
+            border-radius: 5px;
+            margin:0px;
+        }
+
+
+        footer {                   /*La parte di edit del footer*/
+            text-align: center;
+            background: black;
+            color: white;
+            padding: 5px;
+
+        }
+
+       
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/logo_coffe.jpg" />
+        <h1>CoffeeHouse </h1>
+
+        <nav>
+            <!--Comando per creare Link per spostarci nelle pagine del sito-->
+
+            <a href="menù.html">Menu</a>
+            <a href="chi_siamo.html">Chi siamo</a>
+            <a href="contatti_1.html">Contatti</a>
+            <a href="prenotazioni.html">Prenota un Tavolo</a>
+            <a href="corso_barista.html">Corso di caffetteria</a>
+        </nav>
+    </header>
+
+    <p class="intro">
+        Benvenuti nel nostro accogliente <strong>Coffee House,</strong><br /> dove l'aroma avvolgente del caffè si mescola con l'atmosfera rilassata, <br />
+        creando uno spazio perfetto per sorseggiare bevande deliziose e godere di piacevoli momenti di relax. <br />
+        Fatti avvolgere dalla calda ospitalità e deliziosi sapori che rendono unica la tua esperienza qui da noi.
+    </p>
+
+    <div>
+        <h2> Per prenotare il tuo tavolo clicca qua sotto</h2>
+        <a href="prenotazioni.html"> Prenota Qui</a>
+        <br />
+        <br />
+        <h2> Dai un'occhiata al nostro menù</h2>
+        <a href="menù.html"> Menù</a>
+        <br />
+        <br />
+        <h2>Clicca qui per sapere chi siamo</h2>
+        <a href="chi_siamo.html"> Chi siamo</a>
+        <br />
+        <br />
+        <h2>Clicca qui per contattarci</h2>
+        <a href="contatti_1.html"> Contatti</a>
+        <br />
+        <br />
+        <h2>Vuoi diventare un Barista?<br />
+        Scopri i nostri corsi dedicati. <br />
+        Per maggiori informazioni clicca qui</h2>
+        <a href="corso_barista.html" > Corso di barista</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 CoffeeHouse. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="caffetteria, caffè, dolci, cappuccini, cannoli, babà" />
+    <meta name="author" content="Christian, Antonio, Benny, Emmanuel" />
+    <meta name="description" content="Homepage, CoffeeHouse" />
+    <title>Prenotazioni</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background: url('img/immagine_caffè.jpg') fixed; /*Inserire una immagine di sfondo*/ /*Fixed serve per non far muovere la immagine*/
+            background-size: auto;
+            margin:0px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding-bottom: 40px;
+        }
+
+            form label {
+                display: block;
+                margin-bottom: 8px;
+            }
+
+            form input {
+                height: 30px;
+                width: 100%;
+                padding: 5px;
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            form button {
+                background: rgb(156, 87, 8);
+                color: #fff;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+            }
+
+        .torna-home {
+            background: rgb(156, 87, 8);
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            margin-left: 550px;
+        }
+
+        .torna-H {
+            padding-bottom: 30px;
+            margin-left: 340px;
+        }
+
+        .torna-home:hover {
+            background-color: black;
+        }
+
+        button {
+            margin-left: 250px;
+        }
+
+            button:hover {
+                background-color: black;
+            }
+
+        footer {
+            text-align: left;
+            background-color: black;
+            color: #fff;
+            padding:5px;
+            margin-bottom: 0px;
+        }
+
+
+        .h2-preno {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header {
+            text-align: center;
+            background: rgba(204,154,97,1);
+            padding: 2px;
+        }
+
+        nav {
+            text-align: center;
+            padding: 10px;
+        }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 20px;
+            }
+
+                nav a:hover {
+                    background-color: black;
+                    border-radius: 5px;
+                    padding: 2px;
+                }
+
+        .per-corso {
+            margin-right: 150px;
+            padding-bottom: 10px;
+        }
+
+        .divcorso {
+            padding-left: 500px;
+            color: black;
+        }
+
+        .copywrite {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/logo_coffe.jpg" alt="">
+            <h2 class="nome-az">Coffee House</h2>
+        </div>
+        <nav>
+            <!--Comando per creare Link per spostarci nelle pagine del sito-->
+            <a href="index.html">Home</a>
+            <a href="menù.html">Menu</a>
+            <a href="chi_siamo.html">Chi siamo</a>
+            <a href="contatti_1.html">Contatti</a>
+            
+        </nav>
+    </header>
+
+    <!--form per le Pronatazioni-->
+    <section>
+        <form>
+            <p align="center" style=" font-size: 20px;">
+                <strong> Se vuoi iscriverti al nostro corso di caffetteria
+                in collaborazione con Mixology Academy, lasciaci la tua mail
+                e ti ricontatteremo.</strong>
+            </p>
+            
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="name" required/>
+            <label for="cognome">Cognome:</label>
+            <input type="text" name="cognome" id="cognome" required/>
+
+            <label for="numero">telefono:</label>
+            <input type="text" name="numero" id="numero" required/>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required/> 
+
+            <button type="submit">Richiedi informazioni</button>
+        </form>
+    </section>
+
+    <!--Button torna Home-->
+
+    <div class="torna-H">
+        <a class="torna-home" href="index.html">Torna Home</a>
+    </div>
+</body>
+<!--Footer ha comminciato qui-->
+<footer class="footer">
+   
+    
+
+    <p class="copywrite">&copy; 2024 CoffeeHouse. Tutti i diritti riservati.</p><br>
+
+</footer>
+</html>
